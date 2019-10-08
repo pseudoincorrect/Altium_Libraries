@@ -1,0 +1,9 @@
+Mechanical 1 (M1)	(Board outline) Board outline (it is not recommended to use just the keep-out layer, since that can be used for other things also).
+Mechanical 2 (M2)	(PCB notes in Gerber) PCB notes and comments for the PCB manufacturer/assembler (included in Gerber output).
+Mechanical 3 (M3)	(PCB notes not in Gerber) General notes and comments that the PCB manufacturer/assembler does not need to know about (not included in Gerber output).
+Mechanical 11 (M11)	(Top dimensions) Top layer dimensions (paired with M12).
+Mechanical 12 (M12)	(Bottom dimensions) Bottom layer dimensions (paired with M11).
+Mechanical 13 (M13)	(3D body and mechanical outlines) Top layer component body information (3D models and mechanical outlines, paired with M14).
+Mechanical 14 (M14)	(Bottom 3D body and mechanical outlines) Bottom layer component body information (3D models and mechanical outlines, paired with M13).
+Mechanical 15 (M15)	(Assembly) Top layer courtyard and assembly information (paired with M16). This normally includes a cross-hairs at the origin of the component.
+Mechanical 16 (M16)	(Assembly) Bottom layer courtyard and assembly information (paired with M15). This normally includes a cross-hairs at the origin of the component.
