@@ -1,0 +1,45 @@
+How to add a part to any library:
+
+- To add the part LM2775DSGR from Texas Instrument to the Chips library : 
+	https://www.digikey.co.uk/product-detail/en/texas-instruments/LM2775DSGR/296-46107-2-ND/5438061
+
+- Let's get the (LM2775DSGR Part from Ultralibrarian, then import it to altium
+
+- In Altium we get an integrated library for this part
+
+- !!!! Do NOT copy paste these parts directly (PCB or SCH) in the library <======== Most important part of this guide
+
+- Why ? We want to select the necessary data in the SCH library and want that all layers 
+	in our PCB to be unified (all companies have different set of layers that would mess up 
+	badly with our design if we do not unify them / use the same layer for every components)
+
+- In Our library, we will assume now that we are adding a part to our Chips library
+
+- Go on the SCH library panel
+
+- In the Schematic part of the Chips library copy and paste the "template" component
+
+- Open the new template copy 
+
+- In Design Item ID we fill with the name of the part: LM2775DSGR
+
+- In Description copy past the short description from digikey
+
+- In Parameter fill all the empty parameter (manufacturer part number, price, link, ...)
+
+- From the UltraLibrarian LM2775DSGR SCH part copy all the PIN 
+
+- In our LM2775DSGR SCH libary (that we renamed to LM2775DSGR) 
+	we paste these pin and adapte the rectangle shape around it
+
+- From the UltraLibrarian LM2775DSGR PCB part copy all the PAD
+
+- Similarily, in our LM2775DSGR PCB library we paste these pin and adapte the silkscreen 
+	(yellow) and mecaniacal (green) shapes around it
+
+- Back to our SCH libary, in Model, Add Footprint, navigate to the LM2775DSGR PCB part, 
+	then check the Pin and Pad are correctly aassigned
+
+- In project explorer right click on Chips library, compile it
+
+- Done
