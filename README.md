@@ -1,7 +1,7 @@
 # Altium_Libraries
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 <br><br>
-Set of 4 Altium-Designer libraries.
+Set of 4 Altium Designer libraries.
 <br><br>
 <p align="center"><img  src="Support/Assets_readme/file_explorer.png"></p>
 
